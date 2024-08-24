@@ -111,8 +111,8 @@ def login_page():
     st.title("Login Page")
 
     with st.form(key='login_form'):
-        username = st.text_input("Username")
-        password = st.text_input("Password", type='password')
+        username = st.text_input("Username,admin")
+        password = st.text_input("Password password", type='password')
         submit_button = st.form_submit_button("Login")
 
         if submit_button:
